@@ -9,6 +9,10 @@
 /*font-family: 'Kaushan Script' ; font-family: 'Simonetta' ; font-family: Roboto Slab'; font-family: 'Noto Serif';
 */
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-size: 100%;
   font-weight: 300;
