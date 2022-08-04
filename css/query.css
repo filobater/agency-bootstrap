@@ -1,0 +1,572 @@
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+  body {
+    font-size: 78%;
+  }
+
+  h2 {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+  }
+
+  /*start header*/
+
+  header .navbar {
+    padding: 0.5rem 1rem;
+    background-color: var(--color-dark);
+  }
+
+  header .navbar-toggler {
+    padding: 0.75rem 0.5rem;
+    font-size: 0.8rem;
+    background-color: var(--color-blue-2);
+    color: white !important;
+  }
+
+  header .navbar-toggler-icon {
+    width: 1rem;
+    height: 1rem;
+  }
+
+  header .navbar-light .navbar-brand {
+    color: var(--color-blue-2) !important;
+    font-size: 1.4rem;
+  }
+
+  header .navbar-light .navbar-nav .nav-link {
+    font-size: 0.85rem;
+  }
+
+  header .navbar-light .navbar-nav .active > .nav-link,
+  .navbar-light .navbar-nav .nav-link.active,
+  .navbar-light .navbar-nav .nav-link.show,
+  .navbar-light .navbar-nav .show > .nav-link {
+    color: var(--color-blue-2);
+  }
+
+  header .navbar-light .navbar-nav .nav-link:hover,
+  header .navbar-light .navbar-nav .nav-link:focus {
+    color: var(--color-blue-2);
+  }
+
+  header .welcome {
+    margin-top: 6rem;
+  }
+
+  header .welcome h3 {
+    font-size: 1.75rem;
+    margin-bottom: 1.5rem;
+  }
+
+  header .welcome h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+  }
+
+  header .welcome a:link,
+  header .welcome a:visited {
+    font-size: 1rem;
+    padding: 1.25rem 2.25rem;
+  }
+
+  /*end header*/
+
+  section.services p.main-p,
+    section.portfolio p.main-p,
+    /*grouping of p in sections*/
+    section.our-team p.main-p,
+    section.contact p {
+    margin-bottom: 2rem;
+  }
+
+  /*start services*/
+
+  section.services .services-content {
+    margin-bottom: 1.25rem;
+  }
+
+  section.services .services-content h3 {
+    margin-bottom: 0.5rem;
+  }
+
+  /*end services*/
+
+  /*start portfolio*/
+
+  section.portfolio .portfolio-content {
+    max-width: 25rem;
+    margin: auto;
+  }
+
+  /*end portfolio*/
+
+  /*start about*/
+
+  section.about .timeline:before {
+    left: 10%;
+  }
+
+  section.about .container-right {
+    left: 0;
+  }
+
+  section.about .cta {
+    width: 100%;
+    margin-bottom: 3rem;
+  }
+
+  section.about .cta:after {
+    width: 5rem;
+    height: 5rem;
+    left: 5px;
+    top: -6px;
+  }
+
+  section.about .timeline-content-left {
+    text-align: left;
+    margin-left: 5rem;
+    font-size: 0.8rem;
+  }
+
+  section.about .timeline-img-1,
+  section.about .timeline-img-2,
+  section.about .timeline-end {
+    width: 4.25rem;
+    height: 4.25rem;
+    left: 11.5px;
+    top: 0;
+  }
+
+  section.about .timeline-end p {
+    font-size: 0.7rem;
+    margin-top: 0.7rem;
+  }
+
+  /*end about*/
+
+  /*start section our team*/
+
+  section.our-team .team-content {
+    margin-bottom: 1.5rem;
+  }
+
+  section.our-team .team-content img {
+    max-width: 55%;
+  }
+
+  section.our-team .end-section {
+    width: 100%;
+    margin-top: 0;
+    font-size: 1rem;
+  }
+
+  /*end section our team*/
+
+  /*start logos*/
+
+  section.logos {
+    text-align: center;
+  }
+
+  /*end logos*/
+
+  /*start links*/
+
+  footer .links {
+    margin-top: 0.5rem;
+  }
+
+  /*end links*/
+
+  section {
+    padding: 4rem 0 !important;
+    /*global style for sections*/
+  }
+}
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+  body {
+    font-size: 80%;
+  }
+
+  h2 {
+    font-size: 2.25rem;
+    margin-bottom: 0.5rem;
+  }
+
+  /*start header*/
+
+  header .navbar {
+    padding: 0.5rem 1rem;
+    background-color: var(--color-dark);
+  }
+
+  header .navbar-toggler {
+    padding: 0.75rem 0.5rem;
+    font-size: 0.8rem;
+    background-color: var(--color-blue-2);
+    color: white !important;
+  }
+
+  header .navbar-toggler-icon {
+    width: 1rem;
+    height: 1rem;
+  }
+
+  header .navbar-light .navbar-brand {
+    color: var(--color-blue-2) !important;
+    font-size: 1.4rem;
+  }
+
+  header .navbar-light .navbar-nav .nav-link {
+    font-size: 0.85rem;
+  }
+
+  header .navbar-light .navbar-nav .active > .nav-link,
+  .navbar-light .navbar-nav .nav-link.active,
+  .navbar-light .navbar-nav .nav-link.show,
+  .navbar-light .navbar-nav .show > .nav-link {
+    color: var(--color-blue-2);
+  }
+
+  header .navbar-light .navbar-nav .nav-link:hover,
+  header .navbar-light .navbar-nav .nav-link:focus {
+    color: var(--color-blue-2);
+  }
+
+  header .welcome {
+    margin-top: 6rem;
+  }
+
+  header .welcome h3 {
+    font-size: 1.75rem;
+    margin-bottom: 1.5rem;
+  }
+
+  header .welcome h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+  }
+
+  header .welcome a:link,
+  header .welcome a:visited {
+    font-size: 1rem;
+    padding: 1.25rem 2.5rem;
+  }
+
+  /*end header*/
+
+  section.services p.main-p,
+    section.portfolio p.main-p,
+    /*grouping of p in sections*/
+    section.our-team p.main-p,
+    section.contact p {
+    margin-bottom: 2rem;
+  }
+
+  /*start services*/
+
+  section.services .services-content {
+    margin-bottom: 1.25rem;
+  }
+
+  section.services .services-content h3 {
+    margin-bottom: 0.5rem;
+  }
+
+  /*end services*/
+
+  /*start portfolio*/
+
+  section.portfolio .port-img .overlay i {
+    margin-top: 4rem;
+  }
+
+  /*end portfolio*/
+
+  /*start about*/
+
+  section.about .timeline:before {
+    left: 9%;
+  }
+
+  section.about .container-right {
+    left: 0;
+  }
+
+  section.about .cta {
+    width: 100%;
+    margin-bottom: 3rem;
+  }
+
+  section.about .cta:after {
+    width: 5rem;
+    height: 5rem;
+    left: 5px;
+    top: -6px;
+  }
+
+  section.about .timeline-content-left {
+    text-align: left;
+    margin-left: 5rem;
+    font-size: 0.8rem;
+  }
+
+  section.about .timeline-img-1,
+  section.about .timeline-img-2,
+  section.about .timeline-end {
+    width: 4.25rem;
+    height: 4.25rem;
+    left: 11.5px;
+    top: 0;
+  }
+
+  section.about .timeline-end p {
+    font-size: 0.7rem;
+    margin-top: 0.7rem;
+  }
+
+  /*end about*/
+
+  /*start section our team*/
+
+  section.our-team .team-content {
+    margin-bottom: 1.5rem;
+  }
+
+  section.our-team .team-content img {
+    max-width: 55%;
+  }
+
+  section.our-team .end-section {
+    width: 100%;
+    margin-top: 0;
+    font-size: 1rem;
+  }
+
+  /*end section our team*/
+
+  /*start links*/
+
+  footer .links {
+    margin-top: 0.5rem;
+  }
+
+  /*end links*/
+
+  section {
+    padding: 4.5rem 0 !important;
+    /*global style for sections*/
+  }
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+  body {
+    font-size: 85%;
+  }
+
+  h2 {
+    font-size: 2.35rem;
+    margin-bottom: 0.5rem;
+  }
+
+  /*start header*/
+
+  header .navbar {
+    padding: 0.5rem 1rem;
+    background-color: var(--color-dark);
+  }
+
+  header .navbar-toggler {
+    padding: 0.75rem 0.5rem;
+    font-size: 0.8rem;
+    background-color: var(--color-blue-2);
+    color: white !important;
+  }
+
+  header .navbar-toggler-icon {
+    width: 1rem;
+    height: 1rem;
+  }
+
+  header .navbar-light .navbar-brand {
+    color: var(--color-blue-2) !important;
+    font-size: 1.4rem;
+  }
+
+  header .navbar-light .navbar-nav .nav-link {
+    font-size: 0.85rem;
+  }
+
+  header .navbar-light .navbar-nav .active > .nav-link,
+  .navbar-light .navbar-nav .nav-link.active,
+  .navbar-light .navbar-nav .nav-link.show,
+  .navbar-light .navbar-nav .show > .nav-link {
+    color: var(--color-blue-2);
+  }
+
+  header .navbar-light .navbar-nav .nav-link:hover,
+  header .navbar-light .navbar-nav .nav-link:focus {
+    color: var(--color-blue-2);
+  }
+
+  header .welcome {
+    margin-top: 6rem;
+  }
+
+  header .welcome h3 {
+    font-size: 1.75rem;
+    margin-bottom: 1.5rem;
+  }
+
+  header .welcome h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+  }
+
+  header .welcome a:link,
+  header .welcome a:visited {
+    font-size: 1rem;
+    padding: 1.25rem 2.5rem;
+  }
+
+  /*end header*/
+
+  section.services p.main-p,
+    section.portfolio p.main-p,
+    /*grouping of p in sections*/
+    section.our-team p.main-p,
+    section.contact p {
+    margin-bottom: 2.5rem;
+  }
+
+  /*start services*/
+
+  section.services .services-content h3 {
+    margin-bottom: 0.5rem;
+  }
+
+  /*end services*/
+
+  /*start portfolio*/
+
+  section.portfolio .port-img .overlay i {
+    margin-top: 4rem;
+  }
+
+  /*end portfolio*/
+
+  /*start about*/
+
+  section.about .cta {
+    width: 40%;
+    padding: 0.625rem 1.25rem;
+    position: relative;
+    margin-bottom: 5.625rem;
+  }
+
+  section.about .cta:after {
+    right: -8rem;
+    width: 7rem;
+    height: 7rem;
+  }
+
+  section.about .container-left {
+    left: 0;
+  }
+
+  section.about .container-right {
+    left: 50%;
+  }
+
+  section.about .timeline-content-right {
+    margin-left: 3rem;
+  }
+
+  section.about .container-right:after {
+    left: -3.625rem;
+  }
+
+  section.about .timeline-img,
+  section.about .timeline-end {
+    width: 6rem;
+    height: 6rem;
+    top: 8px;
+  }
+
+  section.about .timeline-img-1 {
+    left: 18.75rem;
+  }
+
+  section.about .timeline-img-2,
+  section.about .timeline-end {
+    left: -3.15rem;
+  }
+
+  section.about .timeline-end p {
+    font-size: 0.8rem;
+    margin-top: 1.2rem;
+  }
+
+  /*end section about*/
+
+  /*start section our team*/
+
+  section.our-team .team-content img {
+    width: 90%;
+  }
+
+  section.our-team .end-section {
+    width: 100%;
+    margin-top: 1.5rem;
+    font-size: 1rem;
+  }
+
+  /*end section our team*/
+
+  /*start links*/
+  footer .copyright,
+  footer .links {
+    line-height: 2;
+  }
+
+  /*end links*/
+
+  section {
+    padding: 5rem 0 !important;
+    /*global style for sections*/
+  }
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  body {
+    font-size: 90%;
+  }
+
+  section.services p.main-p,
+    section.portfolio p.main-p,     /*grouping of p in sections*/
+    section.our-team p.main-p,
+    section.contact p {
+    margin-bottom: 3rem;
+  }
+
+  /*start section about*/
+
+  section.about .cta:after {
+    right: -10.75rem;
+  }
+
+  section.about .timeline-img-1 {
+    left: 25rem;
+  }
+
+  /*end section about*/
+
+  section {
+    padding: 5.75rem 0 !important;
+    /*global style for sections*/
+  }
+}
